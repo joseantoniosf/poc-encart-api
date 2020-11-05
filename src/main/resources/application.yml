@@ -1,0 +1,12 @@
+  spring:
+    datasource:
+      database: MYSQL
+      url: jdbc:mysql://localhost:3306/encarteiramento?createDatabaseIfNotExist=true&useSSL=false
+      username: root
+      password: 12345678
+    jackson:
+      deserialization:
+        fail-on-unknown-properties: true
+      date-format: yyyy-MM-dd
+    jpa:
+      show-sql: true
