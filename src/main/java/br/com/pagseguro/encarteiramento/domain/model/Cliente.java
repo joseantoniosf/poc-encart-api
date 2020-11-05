@@ -1,6 +1,5 @@
 package br.com.pagseguro.encarteiramento.domain.model;
 
-import com.sun.istack.NotNull;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -12,6 +11,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.time.LocalDateTime;
 
+import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
 @Getter
