@@ -28,7 +28,7 @@ public class OrdemServico {
     @Enumerated(EnumType.STRING)
     private StatusEnum status = StatusEnum.ABERTA;
     @OneToMany(cascade = CascadeType.ALL ,mappedBy = "ordemServico")
-    List<Comentario> comentario;
+    List<Comentario> comentarios;
 
 
 

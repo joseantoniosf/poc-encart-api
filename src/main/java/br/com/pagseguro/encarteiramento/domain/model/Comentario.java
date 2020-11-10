@@ -30,6 +30,7 @@ public class Comentario {
     @NotNull
     private LocalDateTime dataCriacao;
 
+    @NotNull
     @ManyToOne
     private OrdemServico ordemServico;
 
